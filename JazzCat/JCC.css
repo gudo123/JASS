@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}/*국민연금체 폰트*/
+	@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}/*둘기마요고딕 폰트*/
+
+html, body{width:100%; height:100%; margin:0;}
+
+.zoom{
+	width : 300px;
+	height : 200px;
+	border-radius : 20px;
+	overflow : hidden;
+	border : 2px solid rgb(99,99,92);
+}
+.zoom img{
+	height : 100%;
+	width : 100%;
+	border-radius : 10px;
+	filter : blur(3px);
+	transition : 0.4s ease-in;
+	cursor : pointer;
+}
+.zoom img:hover{
+	transform : scale(1.2);
+	filter : blur(0);
+	zoom : 10%;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: NPSfontBold;
+    margin: 0;
+    margin-left: 20px;
+ }
+div{
+	font-size:19px;
+	font-family: Dovemayo_gothic;
+	margin: 0;
+}
+a{
+	font-size: 30px;
+	font-family: NPSfontBold;
+}
+ul{
+	list-style-type : decimal-leading-zero;
+	font-size:20px;
+	font-family: Dovemayo_gothic;
+}

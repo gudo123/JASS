@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JASS</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="img/JASSweb.png"/>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+<header>
+	<div class = "Title">
+		<h1><img src = "img/JASSIcon.png"
+		onclick="location.href='JASS.html';" alt = "">
+			<a href = "JASS.html">JASS</a>
+		</h1>
+	</div>
+	<div class = "Menu">
+    	<a href = "JazzType.html">재즈 종류</a>
+    	<a href = "JazzCat.html">재즈 뮤지션</a>
+    	<a href = "JazzBar.html">재즈 맵</a>
+	</div>
+</header>
+<nav>
+	<div class = "slide" id = "jsMenu">
+		<a style='text-decoration:none; color:white; cursor:pointer; font-size:20px;'
+		onclick="location.href='JazzCat.html';"> ⇦돌아가기</a>
+		<h1>목차</h1>
+		<ul class = "slide__list">
+			<li class = "item"><a style='text-decoration:none; color:black;'
+								onclick="location.href='https://ko.wikipedia.org/wiki/%EB%93%9C%EB%9F%BC_%EC%84%B8%ED%8A%B8'">드럼</a></li>
+			<li class = "item"><a style='text-decoration:none; color:black;'
+								onclick="location.href='https://ko.wikipedia.org/wiki/%EC%BD%98%ED%8A%B8%EB%9D%BC%EB%B2%A0%EC%9D%B4%EC%8A%A4'">콘트라베이스</a></li>
+			<li class = "item"><a style='text-decoration:none; color:black;'
+								onclick="location.href='https://ko.wikipedia.org/wiki/%EC%83%89%EC%86%8C%ED%8F%B0'">색소폰</a></li>
+			<li class = "item"><a  style='text-decoration:none; color:black;'
+								onclick="location.href='https://ko.wikipedia.org/wiki/%ED%94%BC%EC%95%84%EB%85%B8'">피아노</a></li>
+			<li class = "item"><a style='text-decoration:none; color:black;'
+								onclick="location.href='https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%9F%BC%ED%8E%AB'">트럼펫</a></li>
+			<li class = "item"><a  style='text-decoration:none; color:black;'
+								onclick="location.href='https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EB%A6%AC%EB%84%B7'">클라리넷</a></li>
+		</ul>
+			<img class = "menuimg" src = "img/JASScat.png" alt = "홈페이지 이미지">
+			
+			<label class="switch">
+            	<input type="checkbox" id="darkbtn">
+            	<span class="slider round"></span><br>
+            	<span class="label-text">Thema</span>
+        	</label>
+	</div>
+	<div class = "music" id = "jsMusic">
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/_ehRSDVCXCU?si=fir3aZoDjmIFCenm?autoplay=1&mute=0&controls=0"
+    	title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    	allowfullscreen>
+    	</iframe><br>
+    	Blues for Pres.
+	</div>
+</nav>
+<section class = "Content">
+	<iframe src  = "Mainf.html" frameborder='0' scrolling="no" src='hompage'>
+	</iframe>
+</section>
+<button onclick="scrollToCoordinates(0,0)">⇧</button>
+<footer>
+	<img class = "easteregg" src = "img/easteregg.png"
+		onclick="location.href='https://www.youtube.com/watch?v=mupsjddCat4&t=1s';">
+	<a href = "https://www.youtube.com/watch?v=mupsjddCat4&t=1s">Copyright - 2023 Guedo Park</a>
+</footer>
+
+<script src = "script.js"></script>
+
+</body>
+</html>

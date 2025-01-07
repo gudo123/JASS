@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JASS</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="img/JASSweb.png"/>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+<header>
+	<div class = "Title">
+		<h1><img src = "img/JASSIcon.png"
+		onclick="location.href='JASS.html';" alt = "">
+			<a href = "JASS.html">JASS</a>
+		</h1>
+	</div>
+	<div class = "Menu">
+    	<a href = "JazzType.html">재즈 종류</a>
+    	<a href = "JazzCat.html">재즈 뮤지션</a>
+    	<a href = "JazzBar.html">재즈 맵</a>
+	</div>
+</header>
+<nav>
+	<div class = "slide" id = "jsMenu">
+		<h1>목차</h1>
+		<ul class = "slide__list">
+			<li class = "item"><a href="#jazz" style='text-decoration:none; color:black;'
+								onclick="location.href='https://www.instagram.com/jazzavenue_official/';">재즈 에비뉴</a></li>
+			<li class = "item"><a href="#background" style='text-decoration:none; color:black;'
+								onclick="location.href='https://www.instagram.com/thejazzestate/';">더 재즈 스테이트</a></li>
+			<li class = "item"><a href="#jazzgeneration"  style='text-decoration:none; color:black;'
+								onclick="location.href='https://www.instagram.com/jazzphotoarchives/';">재즈 포토 아치브</a></li>
+		</ul>
+			<img class = "menuimg" src = "img/JASSmenu.png" alt = "홈페이지 이미지">
+			
+			<label class="switch">
+            	<input type="checkbox" id="darkbtn">
+            	<span class="slider round"></span><br>
+            	<span class="label-text">Thema</span>
+        	</label>
+	</div>
+	<div class = "music" id = "jsMusic">
+		<iframe width="300" height="300" src="https://www.youtube.com/embed/_ehRSDVCXCU?si=fir3aZoDjmIFCenm?autoplay=1&mute=0&controls=0"
+    	title="YouTube video player" frameborder="0"
+    	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    	allowfullscreen>
+    	</iframe><br>
+    	Blues for Pres.
+	</div>
+</nav>
+<section class = "JazzMap">
+	<img  src = "img/JazzMap.png" title = "Image by Jazz Avenue"
+	onclick="location.href='https://www.instagram.com/jazzavenue_official/';">
+</section>
+
+<button onclick="scrollToCoordinates(0,0)">⇧</button>
+<footer>
+	<img class = "easteregg" src = "img/easteregg.png"
+		onclick="location.href='https://www.youtube.com/watch?v=mupsjddCat4&t=1s';">
+	<a href = "https://www.youtube.com/watch?v=mupsjddCat4&t=1s">Copyright - 2023 Guedo Park</a>
+</footer>
+
+<script src = "script.js"></script>
+
+</body>
+</html>
